@@ -20,5 +20,6 @@
 ### Запуск демонстрации
 
 ```bash
+cd /Users/bondarchukdo/IdeaProjects/MEPHI
 ./gradlew run --args="ru.example.weather.Main"
 ```

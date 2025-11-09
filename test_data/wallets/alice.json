@@ -1,0 +1,43 @@
+{
+  "username" : "alice",
+  "transactions" : [ {
+    "id" : "aa136030-20d4-4af8-9ba6-e1d11c6c36e4",
+    "type" : "INCOME",
+    "category" : "Зарплата",
+    "amount" : 50000.0,
+    "description" : "Зарплата",
+    "timestamp" : 1762707982879
+  }, {
+    "id" : "f3d0857c-08bc-45a4-8d1e-ca7c8e2b9f37",
+    "type" : "EXPENSE",
+    "category" : "Переводы",
+    "amount" : 5000.0,
+    "description" : "Перевод пользователю bob: Возврат долга",
+    "timestamp" : 1762707982879
+  } ],
+  "budgets" : { },
+  "categories" : [ {
+    "name" : "Переводы",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707982879
+  }, {
+    "name" : "Зарплата",
+    "description" : "Автоматически созданная категория",
+    "type" : "INCOME",
+    "createdAt" : 1762707982879
+  } ],
+  "createdAt" : 1762707982879,
+  "updatedAt" : 1762707982879,
+  "totalIncome" : 50000.0,
+  "balance" : 45000.0,
+  "totalExpenses" : 5000.0,
+  "exceededBudgets" : [ ],
+  "incomeByCategory" : {
+    "Зарплата" : 50000.0
+  },
+  "expensesByCategory" : {
+    "Переводы" : 5000.0
+  },
+  "overspent" : false
+}

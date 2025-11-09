@@ -1,0 +1,147 @@
+{
+  "username" : "user",
+  "transactions" : [ {
+    "id" : "bc1874b7-6828-42e5-901a-4db06cd4d399",
+    "type" : "INCOME",
+    "category" : "Зарплата",
+    "amount" : 50000.0,
+    "description" : "Основная работа",
+    "timestamp" : 1762707982889
+  }, {
+    "id" : "685aa048-76e7-4e03-8704-e7f74cffc814",
+    "type" : "INCOME",
+    "category" : "Зарплата",
+    "amount" : 45000.0,
+    "description" : "Основная работа",
+    "timestamp" : 1762707982889
+  }, {
+    "id" : "597af56f-f279-4084-ace9-83c1db574ca0",
+    "type" : "INCOME",
+    "category" : "Фриланс",
+    "amount" : 15000.0,
+    "description" : "Дополнительный проект",
+    "timestamp" : 1762707982890
+  }, {
+    "id" : "74637b3c-b18c-4c92-99c9-c442a7dcbdb4",
+    "type" : "INCOME",
+    "category" : "Инвестиции",
+    "amount" : 5000.0,
+    "description" : "Дивиденды",
+    "timestamp" : 1762707982890
+  }, {
+    "id" : "1dfe6959-0f3d-48fd-a3cf-842a6adb1131",
+    "type" : "EXPENSE",
+    "category" : "Еда",
+    "amount" : 12000.0,
+    "description" : "Продукты и рестораны",
+    "timestamp" : 1762707982890
+  }, {
+    "id" : "a6c101e0-d69b-4c1d-97d5-cd6ff3213773",
+    "type" : "EXPENSE",
+    "category" : "Транспорт",
+    "amount" : 8000.0,
+    "description" : "Проездной и такси",
+    "timestamp" : 1762707982891
+  }, {
+    "id" : "0980243a-f389-43cd-a94e-eeb4705a22da",
+    "type" : "EXPENSE",
+    "category" : "Жилье",
+    "amount" : 25000.0,
+    "description" : "Аренда квартиры",
+    "timestamp" : 1762707982891
+  }, {
+    "id" : "b0b671bc-ef0a-47fc-84cf-78fbae5a85b3",
+    "type" : "EXPENSE",
+    "category" : "Развлечения",
+    "amount" : 6000.0,
+    "description" : "Кино, театры, игры",
+    "timestamp" : 1762707982892
+  } ],
+  "budgets" : {
+    "Развлечения" : {
+      "category" : "Развлечения",
+      "limit" : 5000.0,
+      "spent" : 6000.0,
+      "exceeded" : true,
+      "remainingBudget" : -1000.0,
+      "usagePercentage" : 120.0
+    },
+    "Еда" : {
+      "category" : "Еда",
+      "limit" : 15000.0,
+      "spent" : 12000.0,
+      "exceeded" : false,
+      "remainingBudget" : 3000.0,
+      "usagePercentage" : 80.0
+    },
+    "Транспорт" : {
+      "category" : "Транспорт",
+      "limit" : 10000.0,
+      "spent" : 8000.0,
+      "exceeded" : false,
+      "remainingBudget" : 2000.0,
+      "usagePercentage" : 80.0
+    }
+  },
+  "categories" : [ {
+    "name" : "Транспорт",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707982891
+  }, {
+    "name" : "Инвестиции",
+    "description" : "Автоматически созданная категория",
+    "type" : "INCOME",
+    "createdAt" : 1762707982890
+  }, {
+    "name" : "Фриланс",
+    "description" : "Автоматически созданная категория",
+    "type" : "INCOME",
+    "createdAt" : 1762707982890
+  }, {
+    "name" : "Зарплата",
+    "description" : "Автоматически созданная категория",
+    "type" : "INCOME",
+    "createdAt" : 1762707982889
+  }, {
+    "name" : "Развлечения",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707982892
+  }, {
+    "name" : "Еда",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707982890
+  }, {
+    "name" : "Жилье",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707982891
+  } ],
+  "createdAt" : 1762707982889,
+  "updatedAt" : 1762707982894,
+  "totalIncome" : 115000.0,
+  "balance" : 64000.0,
+  "totalExpenses" : 51000.0,
+  "exceededBudgets" : [ {
+    "category" : "Развлечения",
+    "limit" : 5000.0,
+    "spent" : 6000.0,
+    "exceeded" : true,
+    "remainingBudget" : -1000.0,
+    "usagePercentage" : 120.0
+  } ],
+  "incomeByCategory" : {
+    "Фриланс" : 15000.0,
+    "Инвестиции" : 5000.0,
+    "Зарплата" : 95000.0
+  },
+  "expensesByCategory" : {
+    "Транспорт" : 8000.0,
+    "Развлечения" : 6000.0,
+    "Жилье" : 25000.0,
+    "Еда" : 12000.0
+  },
+  "overspent" : false
+}

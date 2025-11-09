@@ -1,0 +1,43 @@
+{
+  "username" : "testuser",
+  "transactions" : [ {
+    "id" : "9f5beeb6-68e0-43b0-a3fd-afa90a23e89d",
+    "type" : "INCOME",
+    "category" : "Зарплата",
+    "amount" : 50000.0,
+    "description" : "Зарплата",
+    "timestamp" : 1762707982979
+  }, {
+    "id" : "d05ea295-5617-4826-b711-2a1767aeac7d",
+    "type" : "EXPENSE",
+    "category" : "Еда",
+    "amount" : 5000.0,
+    "description" : "Еда",
+    "timestamp" : 1762707982979
+  } ],
+  "budgets" : { },
+  "categories" : [ {
+    "name" : "Зарплата",
+    "description" : "Автоматически созданная категория",
+    "type" : "INCOME",
+    "createdAt" : 1762707982979
+  }, {
+    "name" : "Еда",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707982979
+  } ],
+  "createdAt" : 1762707982979,
+  "updatedAt" : 1762707982979,
+  "totalIncome" : 50000.0,
+  "balance" : 45000.0,
+  "totalExpenses" : 5000.0,
+  "exceededBudgets" : [ ],
+  "incomeByCategory" : {
+    "Зарплата" : 50000.0
+  },
+  "expensesByCategory" : {
+    "Еда" : 5000.0
+  },
+  "overspent" : false
+}

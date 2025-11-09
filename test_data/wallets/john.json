@@ -1,0 +1,121 @@
+{
+  "username" : "john",
+  "transactions" : [ {
+    "id" : "32502b34-0a33-4aae-877e-768ce2e8ff8c",
+    "type" : "INCOME",
+    "category" : "Зарплата",
+    "amount" : 50000.0,
+    "description" : "Месячная зарплата",
+    "timestamp" : 1762707982896
+  }, {
+    "id" : "cd3f3a60-eb6a-413b-8762-dc0c79f30276",
+    "type" : "INCOME",
+    "category" : "Бонус",
+    "amount" : 10000.0,
+    "description" : "Квартальный бонус",
+    "timestamp" : 1762707982896
+  }, {
+    "id" : "a13c43a4-4bd2-4364-8f3a-d49be193a871",
+    "type" : "EXPENSE",
+    "category" : "Еда",
+    "amount" : 8000.0,
+    "description" : "Продукты за месяц",
+    "timestamp" : 1762707982897
+  }, {
+    "id" : "42202a89-6168-467a-b49a-2cdecd2dcb67",
+    "type" : "EXPENSE",
+    "category" : "Транспорт",
+    "amount" : 3000.0,
+    "description" : "Проездной",
+    "timestamp" : 1762707982897
+  }, {
+    "id" : "7e3d1d60-60eb-4b5d-a0b3-a3a4a87fccab",
+    "type" : "EXPENSE",
+    "category" : "Развлечения",
+    "amount" : 2000.0,
+    "description" : "Кино и рестораны",
+    "timestamp" : 1762707982898
+  }, {
+    "id" : "75967aec-0e4c-41e5-a45c-6e2a5705121c",
+    "type" : "EXPENSE",
+    "category" : "Еда",
+    "amount" : 10000.0,
+    "description" : "Дорогие покупки",
+    "timestamp" : 1762707982898
+  } ],
+  "budgets" : {
+    "Развлечения" : {
+      "category" : "Развлечения",
+      "limit" : 3000.0,
+      "spent" : 2000.0,
+      "exceeded" : false,
+      "remainingBudget" : 1000.0,
+      "usagePercentage" : 66.66666666666666
+    },
+    "Еда" : {
+      "category" : "Еда",
+      "limit" : 15000.0,
+      "spent" : 18000.0,
+      "exceeded" : true,
+      "remainingBudget" : -3000.0,
+      "usagePercentage" : 120.0
+    },
+    "Транспорт" : {
+      "category" : "Транспорт",
+      "limit" : 5000.0,
+      "spent" : 3000.0,
+      "exceeded" : false,
+      "remainingBudget" : 2000.0,
+      "usagePercentage" : 60.0
+    }
+  },
+  "categories" : [ {
+    "name" : "Транспорт",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707982897
+  }, {
+    "name" : "Бонус",
+    "description" : "Автоматически созданная категория",
+    "type" : "INCOME",
+    "createdAt" : 1762707982896
+  }, {
+    "name" : "Зарплата",
+    "description" : "Автоматически созданная категория",
+    "type" : "INCOME",
+    "createdAt" : 1762707982896
+  }, {
+    "name" : "Развлечения",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707982898
+  }, {
+    "name" : "Еда",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707982897
+  } ],
+  "createdAt" : 1762707982896,
+  "updatedAt" : 1762707982898,
+  "totalIncome" : 60000.0,
+  "balance" : 37000.0,
+  "totalExpenses" : 23000.0,
+  "exceededBudgets" : [ {
+    "category" : "Еда",
+    "limit" : 15000.0,
+    "spent" : 18000.0,
+    "exceeded" : true,
+    "remainingBudget" : -3000.0,
+    "usagePercentage" : 120.0
+  } ],
+  "incomeByCategory" : {
+    "Бонус" : 10000.0,
+    "Зарплата" : 50000.0
+  },
+  "expensesByCategory" : {
+    "Транспорт" : 3000.0,
+    "Развлечения" : 2000.0,
+    "Еда" : 18000.0
+  },
+  "overspent" : false
+}

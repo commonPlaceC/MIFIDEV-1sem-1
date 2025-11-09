@@ -1,0 +1,15 @@
+{
+  "username" : "nonexistentuser",
+  "transactions" : [ ],
+  "budgets" : { },
+  "categories" : [ ],
+  "createdAt" : 1762707982961,
+  "updatedAt" : 1762707982961,
+  "totalIncome" : 0.0,
+  "balance" : 0.0,
+  "totalExpenses" : 0.0,
+  "exceededBudgets" : [ ],
+  "incomeByCategory" : { },
+  "expensesByCategory" : { },
+  "overspent" : false
+}

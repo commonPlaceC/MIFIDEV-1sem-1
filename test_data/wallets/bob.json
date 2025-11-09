@@ -1,0 +1,29 @@
+{
+  "username" : "bob",
+  "transactions" : [ {
+    "id" : "6bf2bdc1-062c-47f6-86fc-fb9f97d19811",
+    "type" : "INCOME",
+    "category" : "Переводы",
+    "amount" : 5000.0,
+    "description" : "Перевод от alice: Возврат долга",
+    "timestamp" : 1762707982882
+  } ],
+  "budgets" : { },
+  "categories" : [ {
+    "name" : "Переводы",
+    "description" : "Автоматически созданная категория",
+    "type" : "INCOME",
+    "createdAt" : 1762707982882
+  } ],
+  "createdAt" : 1762707982882,
+  "updatedAt" : 1762707982882,
+  "totalIncome" : 5000.0,
+  "balance" : 5000.0,
+  "totalExpenses" : 0.0,
+  "exceededBudgets" : [ ],
+  "incomeByCategory" : {
+    "Переводы" : 5000.0
+  },
+  "expensesByCategory" : { },
+  "overspent" : false
+}

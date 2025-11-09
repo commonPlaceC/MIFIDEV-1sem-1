@@ -1,0 +1,43 @@
+{
+  "username" : "sender",
+  "transactions" : [ {
+    "id" : "f03ccdb7-d647-4095-8c03-0f22608e5b2c",
+    "type" : "INCOME",
+    "category" : "Зарплата",
+    "amount" : 50000.0,
+    "description" : "Зарплата",
+    "timestamp" : 1762707983000
+  }, {
+    "id" : "781d3daf-4443-481a-abe2-573703fc7d72",
+    "type" : "EXPENSE",
+    "category" : "Переводы",
+    "amount" : 5000.0,
+    "description" : "Перевод пользователю recipient: Test transfer",
+    "timestamp" : 1762707983001
+  } ],
+  "budgets" : { },
+  "categories" : [ {
+    "name" : "Переводы",
+    "description" : "Автоматически созданная категория",
+    "type" : "EXPENSE",
+    "createdAt" : 1762707983001
+  }, {
+    "name" : "Зарплата",
+    "description" : "Автоматически созданная категория",
+    "type" : "INCOME",
+    "createdAt" : 1762707983000
+  } ],
+  "createdAt" : 1762707983000,
+  "updatedAt" : 1762707983001,
+  "totalIncome" : 50000.0,
+  "balance" : 45000.0,
+  "totalExpenses" : 5000.0,
+  "exceededBudgets" : [ ],
+  "incomeByCategory" : {
+    "Зарплата" : 50000.0
+  },
+  "expensesByCategory" : {
+    "Переводы" : 5000.0
+  },
+  "overspent" : false
+}
